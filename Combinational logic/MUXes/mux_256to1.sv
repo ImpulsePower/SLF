@@ -5,6 +5,7 @@ module mux_256to1
     output logic out 
 );
 
+
     integer i;
 
     always_comb begin
