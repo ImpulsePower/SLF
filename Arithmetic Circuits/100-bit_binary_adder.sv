@@ -20,8 +20,8 @@ module top_module(
 endmodule
 
 module FA (
-    input a, b, cin,
-    output cout, sum
+    input  logic a, b, cin,
+    output logic cout, sum
 );
     assign sum = a + b + cin;
     assign cout = (a & cin) | (b & cin) | (a & b); 
