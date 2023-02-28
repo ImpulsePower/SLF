@@ -14,5 +14,10 @@ always_ff @( posedge inclk0 ) begin : blockName
         c1 <= 1'b0;
     end
         
+// lcell lcell (clkx1, clkx1_delay[0]); 
+// lcell lcell (clkx1_delay[0], clkx1_delay[1]); 
+// .......
+// clkx2 = clkx1 ^ clkx1_delay[n];
+
 end
 endmodule
