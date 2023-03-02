@@ -1,4 +1,4 @@
-module uart_pll (
+module freq_conv (
     input   logic inclk0,
     output  logic c0,
     output  logic c1
