@@ -27,8 +27,7 @@ always_ff @ (posedge clk)
 initial rd_addr = '0;
 always_ff @ (posedge clk)
     if (rd)
-        rd_addr <= rd_addr + 1 ;
-
+        rd_addr <= rd_addr + 1;
 assign data_out = fifo_mem [rd_addr];
 
 always_comb begin : empty_full

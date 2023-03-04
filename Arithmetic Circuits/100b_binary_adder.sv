@@ -1,4 +1,4 @@
-module top_module( 
+module 100b_binary_adder( 
     input logic [99:0] a, b,
     input logic cin,
 
