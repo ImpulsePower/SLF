@@ -3,6 +3,9 @@ It's a set of logical functions and elements (SLF)
 
 ## Introduction
 
+Here is a small library of primitives, sometimes used in the work of an RTL designer. 
+It is divided into sections, according to their purpose or functionality.
+
 ## Software Requirements
 
 * Python 3.6+
